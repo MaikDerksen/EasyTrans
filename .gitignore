@@ -1,0 +1,41 @@
+# --- Secrets: never commit ---------------------------------------------------
+*.jks
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+keystore.properties
+local.properties
+.env
+.env.*
+!.env.example
+
+# --- Build output -------------------------------------------------------------
+build/
+*.ipa
+*.apk
+*.aab
+
+# --- iOS / SwiftPM / xtool ----------------------------------------------------
+ios/.build/
+ios/.swiftpm/
+ios/Packages/
+ios/xtool/
+ios/.bsp/
+xcuserdata/
+DerivedData/
+
+# --- Android / Gradle ---------------------------------------------------------
+.gradle/
+.kotlin/
+android/app/release/
+captures/
+*.hprof
+
+# --- Editors & OS -------------------------------------------------------------
+.idea/
+*.iml
+.vscode/
+.claude/
+.DS_Store
+Thumbs.db

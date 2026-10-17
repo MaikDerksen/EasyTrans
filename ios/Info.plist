@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>EasyTrans</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>de</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>EasyTrans hört dem Gespräch zu, um es live zu übersetzen.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>EasyTrans wandelt Sprache auf dem Gerät in Text um, um sie zu übersetzen.</string>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+</dict>
+</plist>
